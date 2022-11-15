@@ -12,7 +12,7 @@ datum, time, latitude, longitude, altitude, snelheid, richting en aantal sat.
 
 Er zijn gps-modules die enkel de US-satellieten ontvangen anderen ook de Chineese, Russische, Europese.
 
-In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Beide systemen werken met dit progamma.
+In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Dit programma werkt met beidie type modules.
 
 
 
