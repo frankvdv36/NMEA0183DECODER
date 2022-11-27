@@ -3,7 +3,7 @@
 '''
 Bekijk de link hierboven hoe een map.png wordt aangemaakt.
 
-map.png = mapHertsberge.png
+map.png 
 		51.1176(lat min)
 3.2561(long min)		3.3160(long max)
 		51.0936(lat max)
