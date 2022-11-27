@@ -16,7 +16,7 @@ Er zijn gps-modules die enkel de US-satellieten ontvangen anderen ook de Chinees
 
 In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Dit programma werkt met beidie type modules.
 
-Het programma maakt 2 files aan. 'GPSdata.csv' en bevat respectivelijk 'datum, time, latitude, longitude, altitude, snelheid, richting en aantal sat'
+Het programma 'serial_gpsXX.py' maakt 2 files aan. 'GPSdata.csv' en bevat respectivelijk 'datum, time, latitude, longitude, altitude, snelheid, richting en aantal sat'
 de andere file 'coordinates.csv' bevat enkel 'latitude, longitude'. De files worden iedere 60 seconden aangevuld.
 Met de file 'coordinates.csv' kan een plot gemaakt worden op een kaart, zie DEEL2.
 
