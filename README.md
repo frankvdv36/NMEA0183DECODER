@@ -18,10 +18,13 @@ In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Dit prog
 
 Het programma maakt 2 files aan. 'GPSdata.csv' en bevat respectivelijk 'datum, time, latitude, longitude, altitude, snelheid, richting en aantal sat'
 de andere file 'coordinates.csv' bevat enkel 'latitude, longitude'. Met deze laatste kan een plot gemaakt worden op een kaart.
+Iedere 60seconden wordt deze files aangevuld.
 
 DEEL2.
 
-
+Met een afzonderlijk programma kunnen we de eerder opgenomen data ' coordinates.csv' zichtbaar maken op een kaart.
+Om dit te laten werken zijn er 4 files nodig. Het programma die bestaat uit 2 files 'main.py' en een 'gps_class.py' een kaart 'map.png' en de opgenomen coördinaten 'coordinates.csv'
+Bij het starten zal het programma 'main.py' de 'map.png' aanvullen met een plot v/d coördinaten.
 
 
 
