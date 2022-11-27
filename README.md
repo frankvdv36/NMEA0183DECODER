@@ -2,7 +2,7 @@
 ## Beschrijving
 Decodeert de data afkomstig van een GPS-module naar een leesbare vorm. Deze data is gecodeerd volgens NMEA0183 protocol.
 
-Iedere seconde wordt een reeks lijnen naar buiten gestuurd via de serial0-bus op een snelheid van 9600 baud.
+Iedere seconde stuurt de GPS een reeks lijnen naar buiten met data op een snelheid van 9600 baud.
 
 De inhoud en samenstelling wordt uitgelegd in bijlage NMEA0183.pdf
 
@@ -13,6 +13,7 @@ datum, time, latitude, longitude, altitude, snelheid, richting en aantal sat.
 Er zijn gps-modules die enkel de US-satellieten ontvangen anderen ook de Chineese, Russische, Europese.
 
 In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Dit programma werkt met beidie type modules.
+
 
 
 
