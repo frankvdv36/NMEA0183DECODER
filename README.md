@@ -23,8 +23,11 @@ Met de file 'coordinates.csv' kan een plot gemaakt worden op een kaart, zie DEEL
 DEEL2.
 
 Met een afzonderlijk programma kunnen we de eerder opgenomen data ' coordinates.csv' zichtbaar maken op een kaart.
-Om dit te laten werken zijn er 4 files nodig. Het programma die bestaat uit 2 files 'main.py' en 'gps_class.py'. Een kaart 'map.png' en de opgenomen coördinaten 'coordinates.csv'.
-Bij het starten zal het programma 'main.py' de 'map.png' aanvullen met een plot v/d coördinaten.
+Om dit te laten werken zijn er 4 files nodig. Het programma die bestaat uit 2 files 'main.py' en 'gps_class.py'. Een kaart 'map.png' en de opgenomen coördinaten 'coordinates.csv'. 
+
+Bij het starten zal het programma 'main.py' de 'map.png' aanvullen met een plot v/d coördinaten te zien in 'resultMap.png' of een plot op het scherm.
+
+Op basis van: https://towardsdatascience.com/simple-gps-data-visualization-using-python-and-open-street-maps-50f992e9b676
 
 
 
