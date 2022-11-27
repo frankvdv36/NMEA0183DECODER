@@ -1,6 +1,7 @@
 # Werkt volledig: vult na een paar seconden de variabelen in tenzij het signaal niet geldig is
 # Deze versie zorgt dat zowel GNxxx als GPxxx files kunnen gelezen worden. serial_gps9bis.py 
 # Aangepast om met epoch tijd iedere minut een file met de data weg te schrijven
+# OPGELET: zet eerst serial interface aan. 'sudo raspi-config', nr3 'interface options' en bij 'Serial port' zet UIT 'login shell' en AAN 'port hardware'
 # 'serial_gps12.py' naar 'serial_gps13.py'  Aangepast file: 'GPSdata.csv' nieuw 'coordinates.csv'
 # geen spacies tussen data columns enkel gescheiden door een comma ','= 'csv' file
 # frequentie, path1 en path2 naar boven gebracht
