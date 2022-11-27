@@ -25,7 +25,7 @@ coordinates.csv
 main.py
 gps_class.py
 
-De input van 'map.png' en 'coordinates.csv' wordt aangemaakt door 'serial_gpsXX.py' of later.
+De file 'coordinates.csv' wordt aangemaakt door 'serial_gpsXX.py' of latere versie.
 
 Bij het laten lopen van 'main.py' komt er een nieuwe map als resultaat 'resultMap.png' + een map '_pycache_'
 
