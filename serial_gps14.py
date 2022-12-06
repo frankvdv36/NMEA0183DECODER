@@ -15,6 +15,7 @@ import time
 from subprocess import call     # save shut down 
 import RPi.GPIO as GPIO
 
+# Stop Python programma op een propere wijze. reedcontact tussen GPIO17 en GND. Magneet tegen reedcontact = shut down
 GPIO.setmode(GPIO.BCM)          # BCM = GPIO nummers / BOARD = PIN nummers
 stopRPI = 17                    # GPIO 17            / PIN 11    
 GPIO.setup(stopRPI, GPIO.IN, pull_up_down=GPIO.PUD_UP)    # GPIO input met pull-up
