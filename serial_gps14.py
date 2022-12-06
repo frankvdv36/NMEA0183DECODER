@@ -7,7 +7,6 @@
 # frequentie, path1 en path2 naar boven gebracht
 # autostart: 'sudo nano /etc/rc.local' deze lijn aanbrengen 'sudo python /home/pi/Python3/LoraGPS/start.py'
 # check of het programma loopt: 'ps aux | grep /home/pi/Python3/LoraGPS/start.py'
-# stop het lopende programma: 'sudo kill start.py' ??????????????????????????????????????
 # Stoppen van de recorder via GIO   https://www.deviceplus.com/raspberry-pi/using-raspberry-pi-gpio-pins-with-the-rpi-gpio-python-library/
 
 import serial                   # raspi-config serial ON. Zie hierboven lijn 4
@@ -170,7 +169,7 @@ print ("Application started!")
 gps = serial.Serial(SERIAL_PORT, baudrate = 9600, timeout = 0.5)
 
 while running:
-    try:
+    try:                          # check reedcontact High = running / Low = shut down
         getPositionData(gps)      #  longitude, latitude, tijd, datum    
         #print ('\n', " datum = " + str(datum)," tijd = " + str(tijd), " lat = " + str(latitude)," lon = "  + str(longitude), '\n')
         
