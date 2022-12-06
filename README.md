@@ -21,7 +21,7 @@ de andere file 'coordinates.csv' bevat enkel 'latitude, longitude'. De files wor
 Met de file 'coordinates.csv' kan een plot gemaakt worden op een kaart,zie DEEL2.
 Om een propere shut down mogelijk te maken voorzien we een reedcontact tussen GPIO17 en GND. 
 
-Als de Zero moet afgesloten worden bijvoorbeeld op het einde van een trip wordt een magneet in de buurt gebracht en de Raspberry schakelt uit.
+Als de Zero moet afgesloten worden, bijvoorbeeld op het einde van een trip, wordt een magneet in de buurt gebracht en de Raspberry schakelt uit.
 
 DEEL2.
 
