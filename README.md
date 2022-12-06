@@ -19,7 +19,8 @@ In het eerste geval begint de lijn met GPxxx in het andere geval GNxxx. Dit prog
 Het programma 'serial_gpsXX.py' maakt 2 files aan. 'GPSdata.csv' en bevat respectivelijk 'datum, time, latitude, longitude, altitude, snelheid, richting en aantal sat'
 de andere file 'coordinates.csv' bevat enkel 'latitude, longitude'. De files worden iedere 60 seconden aangevuld.
 Met de file 'coordinates.csv' kan een plot gemaakt worden op een kaart,zie DEEL2.
-Om een propere shut down mogelijk te maken voorzien we een reedcontact tussen GPIO17 en GND. Als het tostel moet afgesloten worden op het einde van een trip wordt een magneet in de buurt gebracht en de raspberry schakelt uit.
+Om een propere shut down mogelijk te maken voorzien we een reedcontact tussen GPIO17 en GND. 
+Als de Zero moet afgesloten worden bijvoorbeeld op het einde van een trip wordt een magneet in de buurt gebracht en de Raspberry schakelt uit.
 
 DEEL2.
 
